@@ -1,0 +1,198 @@
+@font-face {
+  font-family: iranSance;
+  src: url(iranSance.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: iranSance;
+}
+
+#header {
+  /* border: 1px solid green; */
+  margin-left: 15%;
+  margin-right: 15%;
+  /* text-align: right; */
+  border-radius: 15px;
+  /* border-bottom: 3px solid black; */
+
+}
+
+#upperHeader {
+  /* border: 1px solid red; */
+}
+
+#downerHeader {
+  /* border: 1px solid blue; */
+}
+
+#mainLogo {
+  display: inline-block;
+  /* max-height: 60px; */
+  margin-top: 7px;
+  margin-right: 2px;
+  vertical-align: bottom;
+  width: 20%;
+  margin-bottom: 7px;
+  border-radius: 15px;
+
+}
+
+#mainLogo:hover {
+  display: inline-block;
+  /* max-height: 60px; */
+  margin-top: 7px;
+  margin-right: 2px;
+  vertical-align: bottom;
+  width: 20%;
+  margin-bottom: 7px;
+  border-radius: 15px;
+  border: 2px solid red;
+}
+
+#mainLogo:active {
+  display: inline-block;
+  /* max-height: 60px; */
+  margin-top: 7px;
+  margin-right: 2px;
+  vertical-align: bottom;
+  width: 20%;
+  margin-bottom: 7px;
+  border-radius: 15px;
+  border: 2px solid orange;
+}
+
+#searchBox {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-bottom: 7px;
+  height: 35px;
+  width: 35%;
+  border-radius: 15px;
+  margin-right: 10px;
+  padding: 0 20px;
+}
+
+#loginLink {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 3px;
+  margin-bottom: 7px;
+
+}
+
+#loginLink:visited {
+  display: inline-block;
+  vertical-align: bottom;
+  margin-right: 3px;
+  margin-bottom: 7px;
+  color: green;
+}
+
+
+#leftUpperHeader {
+  display: inline-block;
+  text-align: left;
+  /* border: 1px solid pink; */
+  width: 33%;
+  vertical-align: bottom;
+
+}
+
+#signImg {
+  height: 30px;
+  vertical-align: bottom;
+}
+
+#loginLink {
+  font-size: 1.5em;
+  vertical-align: bottom;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+
+}
+
+li {
+  float: right;
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #c5c3c3;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: right;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#mainServices {
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
+
+.ofoghi {
+  display: inline-block;
+  text-align: center;
+  margin-top: 5px;
+
+}
+
+.roundImg {
+  border-radius: 50%;
+  width: 50%;
+}
+#midPage {
+  text-align: center;
+  margin: 30px 0 30px 0;
+}
+
+.ofoghiG {
+  text-align: center;
+  margin-top: 5px;
+
+}
+#midPage1 {
+  margin-left: auto;
+  margin-right: auto;
+}
