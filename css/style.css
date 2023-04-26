@@ -196,3 +196,10 @@ li.dropdown {
   margin-left: auto;
   margin-right: auto;
 }
+#mainSection{
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+#footer{
+  margin-top: 5px;
+}
